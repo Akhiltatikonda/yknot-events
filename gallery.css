@@ -1,0 +1,99 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: 'Poppins', sans-serif;
+  background: #f8f5f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #fff;
+  box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+}
+
+header img {
+  width: 120px;
+}
+
+/* Navigation */
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #b76e79;
+}
+
+/* Section Title */
+section h1 {
+  text-align: center;
+  margin-top: 40px;
+  font-size: 40px;
+  color: #b76e79;
+}
+
+/* Gallery Grid */
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+  padding: 40px 60px;
+}
+
+/* Gallery Items (Images + Videos) */
+.gallery img,
+.gallery video {
+  width: 100%;
+  height: 260px;
+  object-fit: cover;
+  border-radius: 15px;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  cursor: pointer;
+}
+
+/* Hover Effect */
+.gallery img:hover,
+.gallery video:hover {
+  transform: scale(1.05);
+  box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+}
+
+/* Video Controls Styling Fix */
+.gallery video {
+  background: black;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  nav {
+    text-align: center;
+  }
+
+  .gallery {
+    padding: 20px;
+  }
+
+  section h1 {
+    font-size: 30px;
+  }
+}

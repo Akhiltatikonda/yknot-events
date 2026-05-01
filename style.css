@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: Arial;
+  background: #f8f5f4;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 40px;
+  background: white;
+}
+
+header img {
+  width: 110px;
+}
+
+nav a {
+  margin: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+.hero {
+  height: 90vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#f5e9e7, white);
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 45px;
+  color: #b76e79;
+}
+
+button {
+  padding: 10px 20px;
+  background: #b76e79;
+  color: white;
+  border: none;
+}

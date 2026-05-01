@@ -1,0 +1,106 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f5f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  background: #fff;
+}
+
+header img {
+  width: 110px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+}
+
+nav a:hover {
+  color: #b76e79;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  padding: 60px 20px;
+  background: linear-gradient(#f5e9e7, #fff);
+}
+
+.hero h1 {
+  font-size: 42px;
+  color: #b76e79;
+}
+
+/* Intro */
+.intro {
+  text-align: center;
+  max-width: 700px;
+  margin: auto;
+  padding: 30px;
+}
+
+/* Service Section */
+.service {
+  display: flex;
+  align-items: center;
+  padding: 50px;
+  gap: 40px;
+}
+
+.service img {
+  width: 45%;
+  border-radius: 15px;
+}
+
+.service div {
+  width: 55%;
+}
+
+.service h2 {
+  color: #b76e79;
+}
+
+.service ul {
+  margin-top: 10px;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
+
+/* Approach */
+.approach {
+  text-align: center;
+  padding: 60px;
+  background: #fff;
+}
+
+.approach h2 {
+  color: #b76e79;
+}
+
+/* Quote */
+.quote {
+  text-align: center;
+  padding: 60px;
+  background: #f3e6e4;
+}
+
+.quote p {
+  font-size: 22px;
+  font-style: italic;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+}

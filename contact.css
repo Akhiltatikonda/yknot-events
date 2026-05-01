@@ -1,0 +1,91 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #f8f5f4;
+  color: #333;
+}
+
+/* Header */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 50px;
+  background: #fff;
+}
+
+header img {
+  width: 110px;
+}
+
+nav a {
+  margin: 0 15px;
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: #b76e79;
+}
+
+/* Contact Section */
+.contact-container {
+  text-align: center;
+  padding: 80px 20px;
+}
+
+h1 {
+  color: #b76e79;
+  font-size: 40px;
+}
+
+.subtitle {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #666;
+}
+
+/* Card */
+.contact-card {
+  margin-top: 40px;
+  max-width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+/* Contact Items */
+.contact-item {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #333;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.contact-item i {
+  font-size: 22px;
+  color: #b76e79;
+}
+
+/* Hover Effect */
+.contact-item:hover {
+  background: #f3e6e4;
+  transform: translateY(-3px);
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #eee;
+  margin-top: 50px;
+}
