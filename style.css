@@ -41,5 +41,6 @@ nav a {
   background: #b76e79;
   color: white;
   border: none;
+  text-decoration: none;
   cursor: pointer;
 }
