@@ -85,35 +85,43 @@ ul li {
 
 /* Founder Section */
 .founder-section {
-  padding: 60px 20px;
+  padding: 80px 20px;
   background: #fff;
 }
 
 .founder-container {
   display: flex;
   align-items: center;
-  gap: 40px;
-  max-width: 1000px;
+  gap: 50px;
+  max-width: 1100px;
   margin: auto;
 }
 
 /* Image */
-.founder-image img {
-  width: 300px;
+.founder-image {
+  overflow: hidden;
   border-radius: 15px;
-  object-fit: cover;
-  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+.founder-image img {
+  width: 320px;
+  transition: transform 0.4s ease;
+  border-radius: 15px;
+}
+
+/* Hover effect */
+.founder-image:hover img {
+  transform: scale(1.08);
 }
 
 /* Content */
 .founder-content h2 {
   color: #b76e79;
-  margin-bottom: 5px;
 }
 
 .founder-content h4 {
-  margin-bottom: 15px;
   color: #666;
+  margin-bottom: 15px;
 }
 
 .founder-content h3 {
@@ -126,19 +134,54 @@ ul li {
 }
 
 .founder-content ul {
-  margin-top: 10px;
   padding-left: 20px;
 }
 
-.founder-content ul li {
+.founder-content li {
   margin: 6px 0;
 }
 
-/* Quote Styling */
+/* Quote */
 .quote {
   margin-top: 15px;
   font-style: italic;
   font-weight: 500;
+}
+
+/* Actions */
+.founder-actions {
+  margin-top: 25px;
+  display: flex;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+/* Instagram Button */
+.insta {
+  text-decoration: none;
+  color: white;
+  background: #E1306C;
+  padding: 10px 18px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.insta:hover {
+  background: #c72c61;
+}
+
+/* CTA Button */
+.book-btn {
+  text-decoration: none;
+  color: white;
+  background: #b76e79;
+  padding: 10px 20px;
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.book-btn:hover {
+  background: #9c5c66;
 }
 
 /* Responsive */
@@ -150,5 +193,9 @@ ul li {
 
   .founder-image img {
     width: 80%;
+  }
+
+  .founder-actions {
+    justify-content: center;
   }
 }
