@@ -191,11 +191,14 @@ ul li {
     text-align: center;
   }
 
-  .founder-image img {
-    width: 80%;
-  }
-
-  .founder-actions {
-    justify-content: center;
-  }
+  .founderimg {
+    width: 90%;
+    max-width: 280px;
+    height: auto;
+  } 
+  .founderimg {
+  background: #f3e6e4;
+  padding: 10px;
+  border-radius: 15px;
+}
 }
