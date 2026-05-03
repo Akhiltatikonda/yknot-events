@@ -36,10 +36,10 @@ nav a {
 }
 
 .btn {
-  display: inline-block;
-  padding: 10px 20px;
+  margin-top: 20px;
+  padding: 12px 25px;
   background: #b76e79;
   color: white;
-  text-decoration: none;
-  border-radius: 5px
+  border: none;
+  cursor: pointer;
 }
