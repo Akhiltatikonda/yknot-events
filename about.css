@@ -81,7 +81,7 @@ ul li {
   text-align: center;
   font-size: 20px;
   margin-top: 20px;
-}
+}  
 
 /* Founder Section */
 .founder-section {
@@ -191,14 +191,11 @@ ul li {
     text-align: center;
   }
 
-  .founderimg {
-    width: 90%;
-    max-width: 280px;
-    height: auto;
-  } 
-  .founderimg {
-  background: #f3e6e4;
-  padding: 10px;
-  border-radius: 15px;
-}
+  .founder-image img {
+    width: 80%;
+  }
+
+  .founder-actions {
+    justify-content: center;
+  }
 }
